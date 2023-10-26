@@ -19,7 +19,7 @@
 
     <properties>
         <java.version>17</java.version>
-        <sonar.host.url>http://35.172.115.166:9000/</sonar.host.url>
+        <sonar.host.url>http://18.212.131.70:9000/</sonar.host.url>
 	<sonar.login>admin</sonar.login>
 	<sonar.password>admin123</sonar.password>
     </properties>
@@ -67,13 +67,13 @@
         <repository>
             <id>nexus</id>
             <name>Jendarey Technologies Releases Nexus Repository</name>
-            <url>http://100.26.240.128:8081/repository/project-releases/</url>
+            <url>http://34.207.156.72:8081/repository/DevopsTeam-project-releases/</url>
         </repository>
 
         <snapshotRepository>
             <id>nexus</id>
             <name>Jendarey Technologies Snapshot Nexus Repository</name>
-            <url>http://100.26.240.128:8081/repository/project-snapshot/</url> 
+            <url>http://34.207.156.72:8081/repository/DevOpsTeam-project-snapshot/</url> 
         </snapshotRepository>
      </distributionManagement>
 
